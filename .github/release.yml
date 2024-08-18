@@ -1,0 +1,26 @@
+changelog:
+  categories:
+    - title: ✨ New Features
+      labels:
+        - feature
+    - title: ⚡️ Feature Enhancements
+      labels:
+        - enhancement
+    - title: 💥 Breaking Changes
+      labels:
+        - breaking-change
+    - title: 🚑️ Hotfixes
+      labels:
+          - hotfix
+    - title: 🐛 Bug Fixes
+      labels:
+        - bug
+    - title: 🔒️ Security Fixes or Enhancements
+      labels:
+          - security
+    - title: ⬆️ Dependency Updates
+      labels:
+        - dependencies
+    - title: Other changes
+      labels:
+        - '*'

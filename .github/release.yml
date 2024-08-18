@@ -15,9 +15,12 @@ changelog:
     - title: 🐛 Bug Fixes
       labels:
         - bug
-    - title: 🔒️ Security Fixes
+    - title: 🔒️ Security Fixes or Enhancements
       labels:
           - security
     - title: ⬆️ Dependency Updates
       labels:
         - dependencies
+    - title: Other changes
+      labels:
+        - '*'

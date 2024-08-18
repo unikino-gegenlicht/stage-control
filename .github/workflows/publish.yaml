@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version-file: go.mod
-      - name: Build Stage Control for GOOS=${{matrix.os}} GOARCH=${{matrix.arch}} (${{matrix.arch}})
+      - name: Build Stage Control for ${{matrix.os}} (${{matrix.arch}})
         run: |
           GOOS=${{matrix.os}} GOARCH=${{matrix.arch}} go build -buildvcs -o dist/stage-contol-${{matrix.os}}-${{matrix.arch}} .
       - run: mv dist/stage-contol-${{matrix.os}}-${{matrix.arch}} dist/stage-contol-${{matrix.os}}-${{matrix.arch}}.exe
